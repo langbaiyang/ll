@@ -3,10 +3,113 @@
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="lxy.css" media="screen">
+    <style type="text/css">
+   
+a:link,
+a:hover,
+a:visited,
+a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  
+
+}
+
+.card-holder {  
+  position: fixed;
+  width: 0px;
+  overflow: visible;
+}
+
+.card-wrapper {
+  display: inline-block;
+  float: right;
+  clear: both;
+}
+
+.card {
+  position: relative;
+  left: 32px;
+  padding: 16px 32px 16px 64px;
+  margin: 8px;  
+  x-box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 8px 0 8px -8px rgba(0, 0, 0, 0.5);
+  background: #fff;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+
+.card:hover {
+  position: relative;
+  left: 100%;
+  margin-left: -32px;
+  box-shadow: 
+    0 -8px 8px -8px rgba(0, 0, 0, 0.5),
+    0 8px 8px -8px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.card-content {
+  display: inline-block;
+  color: #fff;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.bg-01 { background: #539770; }
+.bg-02 { background: #4B7D74; }
+.bg-03 { background: #8DC2BC; }
+.bg-04 { background: #EDD6B4; }
+.bg-05 { background: #BE7467; }
+.bg-06 { background: #E2AE63; }
+
+    </style>
 <title>认识扎染界面</title>
 </head>
 
 <body >
-<FONT style="FONT-SIZE: 100pt; FILTER: shadow(color=#af2dco); WIDTH: 100%; color:#000000 LINE-HEIGHT: 100%; size=6">认识扎染</FONT>
+<FONT style="FONT-SIZE: 100pt; font-family: 华文行楷; WIDTH: 100%; color:#000000 LINE-HEIGHT: 100%; size=6" >认识扎染</FONT>
+<div class='card-holder'>
+  <div class='card-wrapper'>
+    <a href='lxy.2.html'>
+      <div class='card bg-01'>
+        <span class='card-content' onClick="lxy.2.html">返回菜单页面</span>
+      </div>
+    </a>
+  </div>
+  <div class='card-wrapper'>
+    <a href='#'>
+      <div class='card bg-02'>
+        <span class='card-content'>前往学习制作扎染</span>
+      </div>
+    </a>
+  </div>
+  <div class='card-wrapper'>
+    <a href='#'>
+      <div class='card bg-03'>
+        <span class='card-content'>前往学习扎染的文化意义</文化意义>
+      </div>
+    </a>
+  </div>
+  <div class='card-wrapper'>
+    <a href='lxy4.html'>
+    <a href='lxy4.html'>
+      <div class='card bg-04'>
+        <span class='card-content'>前往观看扎染优秀作品</span>
+      </div>
+    </a>
+  </div>
+
+<div style="text-align:center;">
+
+</div>
 </body>
 </html>
